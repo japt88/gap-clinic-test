@@ -1,0 +1,5 @@
+D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\bin\Debug\ClinicAppointmentApp.Repositories.dll
+D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\bin\Debug\ClinicAppointmentApp.Repositories.pdb
+D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\obj\Debug\ClinicAppointmentApp.Repositories.csprojAssemblyReference.cache
+D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\obj\Debug\ClinicAppointmentApp.Repositories.dll
+D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\obj\Debug\ClinicAppointmentApp.Repositories.pdb
