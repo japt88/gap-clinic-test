@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29709.97
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicAppointmentApp.Portal", "ClinicAppointmentApp.Portal\ClinicAppointmentApp.Portal.csproj", "{F83A61A4-54B8-4487-9494-064A71D82335}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicAppointmentApp.Repositories", "ClinicAppointmentApp.Repositories\ClinicAppointmentApp.Repositories.csproj", "{F148BA09-E37A-42D9-8D01-06EABBD499CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicAppointmentApp.Core", "ClinicAppointmentApp.Core\ClinicAppointmentApp.Core.csproj", "{3F2D1729-5165-4756-8847-66DC4163E3EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicAppointmentApp.Dto", "ClinicAppointmentApp.Dto\ClinicAppointmentApp.Dto.csproj", "{000A1A93-BF5C-4A0C-9E1E-E593D3F30DD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3F2D1729-5165-4756-8847-66DC4163E3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F2D1729-5165-4756-8847-66DC4163E3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F2D1729-5165-4756-8847-66DC4163E3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{000A1A93-BF5C-4A0C-9E1E-E593D3F30DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000A1A93-BF5C-4A0C-9E1E-E593D3F30DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000A1A93-BF5C-4A0C-9E1E-E593D3F30DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000A1A93-BF5C-4A0C-9E1E-E593D3F30DD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

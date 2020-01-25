@@ -42,8 +42,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="AppointmentManager.cs" />
+    <Compile Include="Interfaces\IAppointmentManager.cs" />
+    <Compile Include="Interfaces\IPatientManager.cs" />
+    <Compile Include="Interfaces\ISpecializationManager.cs" />
+    <Compile Include="PatientManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpecializationManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClinicAppointmentApp.DbManager\ClinicAppointmentApp.DbManager.csproj">
+      <Project>{DD1B677D-94F5-4C59-90CD-0E5000996D19}</Project>
+      <Name>ClinicAppointmentApp.DbManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClinicAppointmentApp.Dto\ClinicAppointmentApp.Dto.csproj">
+      <Project>{000a1a93-bf5c-4a0c-9e1e-e593d3f30dd2}</Project>
+      <Name>ClinicAppointmentApp.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClinicAppointmentApp.Repositories\ClinicAppointmentApp.Repositories.csproj">
+      <Project>{f148ba09-e37a-42d9-8d01-06eabbd499cc}</Project>
+      <Name>ClinicAppointmentApp.Repositories</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
