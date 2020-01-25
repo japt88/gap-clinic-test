@@ -3,3 +3,8 @@ D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Co
 D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\obj\Debug\ClinicAppointmentApp.Core.csprojAssemblyReference.cache
 D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\obj\Debug\ClinicAppointmentApp.Core.dll
 D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\obj\Debug\ClinicAppointmentApp.Core.pdb
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\ClinicAppointmentApp.Core.dll
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\ClinicAppointmentApp.Core.pdb
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\obj\Debug\ClinicAppointmentApp.Core.csprojResolveAssemblyReference.cache
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\obj\Debug\ClinicAppointmentApp.Core.dll
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\obj\Debug\ClinicAppointmentApp.Core.pdb
