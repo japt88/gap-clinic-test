@@ -1,5 +1,7 @@
-﻿using ClinicAppointmentApp.Core.Interfaces;
+﻿using AutoMapper;
+using ClinicAppointmentApp.Core.Interfaces;
 using ClinicAppointmentApp.Dto;
+using ClinicAppointmentApp.Portal.Models;
 using System.Collections.Generic;
 using System.Web.Http;
 
@@ -9,33 +11,57 @@ namespace ClinicAppointmentApp.Portal.Controllers
     {
 
         private IAppointmentManager _appointmentManager;
-        public AppointmentController(IAppointmentManager appointmentManager)
+        private IMapper _mapper;
+        public AppointmentController(IAppointmentManager appointmentManager, IMapper mapper)
         {
             _appointmentManager = appointmentManager;
+            _mapper = mapper;
         }
 
         // GET: api/Appointment
-        public IEnumerable<Appointment> Get()
+        public IEnumerable<AppointmentModel> Get()
         {
-            return _appointmentManager.GetAllAppointments();
+            var appointments = _appointmentManager.GetAllAppointments();
+            var mappedDto = MapAppointments(appointments);
+            return mappedDto;
         }
 
         // GET: api/Appointment/5
-        public Appointment Get(int id)
+        public AppointmentModel Get(int id)
         {
-            return _appointmentManager.GetAppointmentById(id);
+            var appointment = _appointmentManager.GetAppointmentById(id);
+            var mappedDto = _mapper.Map<Dto.Appointment, AppointmentModel>(appointment);
+            return mappedDto;
         }
 
         // POST: api/Appointment
-        public Result Post([FromBody]Appointment value)
+        public Result Post([FromBody]AppointmentModel value)
         {
-            return _appointmentManager.CreateAppointment(value);
+            var mappedDto = _mapper.Map<AppointmentModel, Dto.Appointment>(value);
+            return _appointmentManager.CreateAppointment(mappedDto);
         }
 
         // DELETE: api/Appointment/5
-        public Result Cancel(int id, [FromBody]Appointment value)
+        public Result Cancel(int id)
         {
             return _appointmentManager.CancelAppointment(id);
+        }
+
+
+
+        private List<AppointmentModel> MapAppointments(List<Appointment> appointmentsDto)
+        {
+            if (appointmentsDto != null)
+            {
+                var appointments = new List<AppointmentModel>();
+                foreach (var item in appointmentsDto)
+                {
+                    var model = _mapper.Map<Appointment, AppointmentModel>(item);
+                    appointments.Add(model);
+                }
+                return appointments;
+            }
+            return null;
         }
     }
 }

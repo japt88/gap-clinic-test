@@ -2,6 +2,7 @@ using AutoMapper;
 using ClinicAppointmentApp.Core;
 using ClinicAppointmentApp.Core.Interfaces;
 using ClinicAppointmentApp.Core.Mappings;
+using ClinicAppointmentApp.Portal.Models;
 using System.Web.Http;
 using Unity;
 using Unity.WebApi;
@@ -27,6 +28,14 @@ namespace ClinicAppointmentApp.Portal
 
             var config = new MapperConfiguration(cfg => {
                 cfg.AddProfile<MappingConfiguration>();
+
+                cfg.CreateMap<Dto.Patient, PatientModel>();
+                cfg.CreateMap<PatientModel, Dto.Patient>();
+                cfg.CreateMap<Dto.Appointment, AppointmentModel>();
+                cfg.CreateMap<AppointmentModel, Dto.Appointment>();
+                cfg.CreateMap<Dto.Specialization, SpecializationModel>();
+                cfg.CreateMap<SpecializationModel, Dto.Specialization>();
+
             });
             container.RegisterInstance(config.CreateMapper());
 
