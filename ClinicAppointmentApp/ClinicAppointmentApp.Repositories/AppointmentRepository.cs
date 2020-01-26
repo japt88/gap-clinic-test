@@ -8,6 +8,10 @@ namespace ClinicAppointmentApp.Repositories
 {
     public class AppointmentRepository : GenericRepository<Appointment>, IAppointmentRepository
     {
+        public AppointmentRepository()
+        {
+
+        }
         public IEnumerable<Appointment> GetAppointments(DateTime date, TimeSpan startTime, int specializationId)
         {
             return _context.Appointments.Where(x => x.Date.Date == date.Date && x.StartTime == startTime && x.SpecializationId == specializationId);

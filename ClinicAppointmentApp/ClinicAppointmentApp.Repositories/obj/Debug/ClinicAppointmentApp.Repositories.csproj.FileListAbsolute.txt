@@ -3,12 +3,9 @@ D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Re
 D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\obj\Debug\ClinicAppointmentApp.Repositories.csprojAssemblyReference.cache
 D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\obj\Debug\ClinicAppointmentApp.Repositories.dll
 D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\obj\Debug\ClinicAppointmentApp.Repositories.pdb
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\bin\Debug\ClinicAppointmentApp.Repositories.dll.config
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\bin\Debug\ClinicAppointmentApp.Repositories.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\bin\Debug\ClinicAppointmentApp.Repositories.pdb
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\obj\Debug\ClinicAppointmentApp.Repositories.csprojResolveAssemblyReference.cache
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\obj\Debug\ClinicAppointmentApp.Repositories.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\obj\Debug\ClinicAppointmentApp.Repositories.pdb
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\bin\Debug\ClinicAppointmentApp.Repositories.dll.config
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\bin\Debug\ClinicAppointmentApp.DbManager.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\bin\Debug\EntityFramework.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\bin\Debug\EntityFramework.SqlServer.dll
@@ -16,3 +13,6 @@ C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repos
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\bin\Debug\ClinicAppointmentApp.DbManager.dll.config
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\bin\Debug\EntityFramework.xml
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\obj\Debug\ClinicAppointmentApp.Repositories.csprojResolveAssemblyReference.cache
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\obj\Debug\ClinicAppointmentApp.Repositories.dll
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Repositories\obj\Debug\ClinicAppointmentApp.Repositories.pdb

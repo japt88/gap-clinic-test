@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using ClinicAppointmentApp.Core.Interfaces;
 using ClinicAppointmentApp.Dto;
+using ClinicAppointmentApp.Repositories;
 using ClinicAppointmentApp.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -15,7 +16,7 @@ namespace ClinicAppointmentApp.Core
 
         public AppointmentManager(IAppointmentRepository appointmentRepo, IMapper mapper)
         {
-            _appointmentRepo = appointmentRepo;
+            _appointmentRepo = appointmentRepo ?? new AppointmentRepository();
             _mapper = mapper;
         }
 
@@ -77,6 +78,36 @@ namespace ClinicAppointmentApp.Core
             catch (Exception)
             {
                 return new Result() { Status = false, Message = "An exception has occurred, please try again." };
+            }
+        }
+
+        public Appointment GetAppointmentById(int id)
+        {
+            try
+            {
+                var appointment = _appointmentRepo.GetById(id);
+                var appointmentDto = _mapper.Map<DbManager.Appointment, Appointment>(appointment);
+                return appointmentDto;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        public List<Appointment> GetAllAppointments()
+        {
+            try
+            {
+                var appointments = _appointmentRepo.GetAll();
+                var appointmentsDto = MapAppointments(appointments);
+                return appointmentsDto;
+            }
+            catch (Exception)
+            {
+
+                throw;
             }
         }
 

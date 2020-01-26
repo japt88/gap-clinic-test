@@ -3,11 +3,12 @@ using ClinicAppointmentApp.Repositories.Interfaces;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Runtime.CompilerServices;
 
 namespace ClinicAppointmentApp.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
-    {
+    {        
         public ClinicTestEntities _context = null;
         public DbSet<T> table = null;
         public GenericRepository()

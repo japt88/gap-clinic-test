@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using ClinicAppointmentApp.Core.Interfaces;
 using ClinicAppointmentApp.Dto;
+using ClinicAppointmentApp.Repositories;
 using ClinicAppointmentApp.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,7 @@ namespace ClinicAppointmentApp.Core
 
         public PatientManager(IPatientRepository patientRepo, IMapper mapper)
         {
-            _patientRepo = patientRepo;
+            _patientRepo = patientRepo ?? new PatientRepository();
             _mapper = mapper;
         }
 

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using ClinicAppointmentApp.Core.Interfaces;
 using ClinicAppointmentApp.Dto;
+using ClinicAppointmentApp.Repositories;
 using ClinicAppointmentApp.Repositories.Interfaces;
 using System.Collections.Generic;
 
@@ -8,12 +9,13 @@ namespace ClinicAppointmentApp.Core
 {
     public class SpecializationManager : ISpecializationManager
     {
+
         private ISpecializationRepository _specializationRepo;
         private readonly IMapper _mapper;
 
         public SpecializationManager(ISpecializationRepository specializationRepo, IMapper mapper)
         {
-            _specializationRepo = specializationRepo;
+            _specializationRepo = specializationRepo ?? new SpecializationRepository();
             _mapper = mapper;
         }
 

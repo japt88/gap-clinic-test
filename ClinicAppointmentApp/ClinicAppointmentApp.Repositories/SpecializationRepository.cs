@@ -5,5 +5,9 @@ namespace ClinicAppointmentApp.Repositories
 {
     public class SpecializationRepository : GenericRepository<Specialization>, ISpecializationRepository
     {
+        public SpecializationRepository()
+        {
+
+        }
     }
 }
