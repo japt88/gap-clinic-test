@@ -8,7 +8,7 @@ namespace ClinicAppointmentApp.Core.Interfaces
     {
         List<Appointment> GetAllAppointmentsByDate(DateTime date);
         List<Appointment> GetAllAppointmentsByPatient(int patientId);
-        bool CreateAppointment(Appointment appointmentInfo);
-        bool CancelAppointment(int appointmentId);
+        Result CreateAppointment(Appointment appointmentInfo);
+        Result CancelAppointment(int appointmentId);
     }
 }
