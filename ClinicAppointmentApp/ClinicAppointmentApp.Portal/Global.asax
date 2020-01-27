@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="ClinicAppointmentApp.Portal.WebApiApplication" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="ClinicAppointmentApp.Portal.MvcApplication" Language="C#" %>

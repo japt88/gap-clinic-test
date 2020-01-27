@@ -3,7 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicAppointmentApp.Portal", "ClinicAppointmentApp.Portal\ClinicAppointmentApp.Portal.csproj", "{F83A61A4-54B8-4487-9494-064A71D82335}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicAppointmentApp.Services", "ClinicAppointmentApp.Services\ClinicAppointmentApp.Services.csproj", "{F83A61A4-54B8-4487-9494-064A71D82335}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DD1B677D-94F5-4C59-90CD-0E5000996D19} = {DD1B677D-94F5-4C59-90CD-0E5000996D19}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicAppointmentApp.DbManager", "ClinicAppointmentApp.DbManager\ClinicAppointmentApp.DbManager.csproj", "{DD1B677D-94F5-4C59-90CD-0E5000996D19}"
 EndProject
@@ -12,6 +15,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicAppointmentApp.Core", "ClinicAppointmentApp.Core\ClinicAppointmentApp.Core.csproj", "{3F2D1729-5165-4756-8847-66DC4163E3EF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicAppointmentApp.Dto", "ClinicAppointmentApp.Dto\ClinicAppointmentApp.Dto.csproj", "{000A1A93-BF5C-4A0C-9E1E-E593D3F30DD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicAppointmentApp.Portal", "ClinicAppointmentApp.Portal\ClinicAppointmentApp.Portal.csproj", "{D6737ED7-8D34-4909-948D-0FC5C8D1381E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicAppointmentApp.RepositoriesTests", "ClinicAppointmentApp.RepositoriesTests\ClinicAppointmentApp.RepositoriesTests.csproj", "{82AE5DC1-57D1-4846-BFD8-D19648C2DE2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +46,14 @@ Global
 		{000A1A93-BF5C-4A0C-9E1E-E593D3F30DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{000A1A93-BF5C-4A0C-9E1E-E593D3F30DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{000A1A93-BF5C-4A0C-9E1E-E593D3F30DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6737ED7-8D34-4909-948D-0FC5C8D1381E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6737ED7-8D34-4909-948D-0FC5C8D1381E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6737ED7-8D34-4909-948D-0FC5C8D1381E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6737ED7-8D34-4909-948D-0FC5C8D1381E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82AE5DC1-57D1-4846-BFD8-D19648C2DE2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82AE5DC1-57D1-4846-BFD8-D19648C2DE2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82AE5DC1-57D1-4846-BFD8-D19648C2DE2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82AE5DC1-57D1-4846-BFD8-D19648C2DE2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

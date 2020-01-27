@@ -2,4 +2,3 @@ C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Dto\b
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Dto\bin\Debug\ClinicAppointmentApp.Dto.pdb
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Dto\obj\Debug\ClinicAppointmentApp.Dto.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Dto\obj\Debug\ClinicAppointmentApp.Dto.pdb
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Dto\obj\Debug\ClinicAppointmentApp.Dto.csprojResolveAssemblyReference.cache

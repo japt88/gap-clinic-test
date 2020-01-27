@@ -8,7 +8,7 @@ using System.Runtime.CompilerServices;
 namespace ClinicAppointmentApp.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
-    {        
+    {
         public ClinicTestEntities _context = null;
         public DbSet<T> table = null;
         public GenericRepository()
@@ -20,7 +20,8 @@ namespace ClinicAppointmentApp.Repositories
         public void Delete(object id)
         {
             T existing = table.Find(id);
-            table.Remove(existing);
+            if (existing != null)
+                table.Remove(existing);
         }
 
         public IEnumerable<T> GetAll()

@@ -1,126 +1,8 @@
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ClinicAppointmentApp.Portal.dll.config
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ClinicAppointmentApp.Portal.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ClinicAppointmentApp.Portal.pdb
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\csc.exe
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\csc.exe.config
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\csc.rsp
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\csi.exe
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\csi.exe.config
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\csi.rsp
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.Managed.Core.targets
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.Win32.Primitives.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.AppContext.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Collections.Immutable.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Console.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Diagnostics.StackTrace.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Globalization.Calendars.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.IO.Compression.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.IO.Compression.ZipFile.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.IO.FileSystem.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.IO.FileSystem.Primitives.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Net.Http.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Net.Sockets.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Reflection.Metadata.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Security.Cryptography.Encoding.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Security.Cryptography.Primitives.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Text.Encoding.CodePages.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Threading.Tasks.Extensions.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.ValueTuple.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Xml.ReaderWriter.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Xml.XmlDocument.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Xml.XPath.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Xml.XPath.XDocument.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\vbc.exe
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\vbc.exe.config
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\vbc.rsp
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\VBCSCompiler.exe
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\VBCSCompiler.exe.config
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Antlr3.Runtime.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\EntityFramework.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\EntityFramework.SqlServer.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AspNet.Identity.Core.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AspNet.Identity.Owin.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Host.SystemWeb.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.Cookies.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.Facebook.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.Google.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.OAuth.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.Twitter.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Web.Infrastructure.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Newtonsoft.Json.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Owin.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Net.Http.Formatting.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Helpers.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Http.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Http.Owin.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Http.WebHost.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Mvc.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Optimization.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Razor.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.WebPages.Deployment.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.WebPages.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.WebPages.Razor.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\WebGrease.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Newtonsoft.Json.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Net.Http.Formatting.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Helpers.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Http.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Http.WebHost.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Mvc.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Optimization.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Razor.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.WebPages.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.WebPages.Deployment.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.WebPages.Razor.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Antlr3.Runtime.pdb
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\EntityFramework.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\EntityFramework.SqlServer.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AspNet.Identity.Core.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AspNet.Identity.Owin.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Host.SystemWeb.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.Facebook.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.Cookies.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.Google.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.Twitter.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.OAuth.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Http.Owin.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\obj\Debug\ClinicAppointmentApp.Portal.csprojAssemblyReference.cache
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\obj\Debug\ClinicAppointmentApp.Portal.csproj.CopyComplete
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\obj\Debug\ClinicAppointmentApp.Portal.dll
-D:\JUDY PINILLA\GAP\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\obj\Debug\ClinicAppointmentApp.Portal.pdb
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ClinicAppointmentApp.Portal.dll.config
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ClinicAppointmentApp.Portal.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ClinicAppointmentApp.Portal.pdb
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ApplicationInsights.config
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\csc.exe
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\csc.exe.config
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\csc.rsp
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\csi.exe
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\csi.exe.config
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\csi.rsp
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -131,70 +13,33 @@ C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Porta
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.CSharp.Core.targets
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.Managed.Core.targets
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\Microsoft.Win32.Primitives.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.AppContext.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Collections.Immutable.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Console.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Globalization.Calendars.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.IO.Compression.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.IO.Compression.ZipFile.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.IO.FileSystem.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Net.Http.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Net.Sockets.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Reflection.Metadata.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.ValueTuple.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Xml.XmlDocument.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Xml.XPath.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\System.Xml.XPath.XDocument.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\vbc.exe
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\vbc.exe.config
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\vbc.rsp
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\VBCSCompiler.exe
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\roslyn\VBCSCompiler.exe.config
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ClinicAppointmentApp.Portal.dll.config
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ClinicAppointmentApp.Portal.dll
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ClinicAppointmentApp.Portal.pdb
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Antlr3.Runtime.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\AutoMapper.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ClinicAppointmentApp.Core.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ClinicAppointmentApp.Dto.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ClinicAppointmentApp.Repositories.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\EntityFramework.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\EntityFramework.SqlServer.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AspNet.Identity.Core.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AI.Agent.Intercept.dll
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AI.DependencyCollector.dll
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AI.Web.dll
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AI.WindowsServer.dll
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.ApplicationInsights.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.Cookies.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.Facebook.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.Google.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.OAuth.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.Twitter.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Web.Infrastructure.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Newtonsoft.Json.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Owin.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Net.Http.Formatting.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Runtime.CompilerServices.Unsafe.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Threading.Tasks.Extensions.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Helpers.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Http.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Http.Owin.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Http.WebHost.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Mvc.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Optimization.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Razor.dll
@@ -202,20 +47,8 @@ C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Porta
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.WebPages.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.WebPages.Razor.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\WebGrease.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ClinicAppointmentApp.DbManager.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ClinicAppointmentApp.Core.pdb
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ClinicAppointmentApp.Dto.pdb
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ClinicAppointmentApp.Repositories.pdb
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ClinicAppointmentApp.Repositories.dll.config
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\AutoMapper.pdb
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\AutoMapper.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Runtime.CompilerServices.Unsafe.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Threading.Tasks.Extensions.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Newtonsoft.Json.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Net.Http.Formatting.xml
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Helpers.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Http.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Http.WebHost.xml
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Mvc.xml
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Optimization.xml
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Razor.xml
@@ -223,30 +56,12 @@ C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Porta
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.WebPages.Deployment.xml
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.WebPages.Razor.xml
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Antlr3.Runtime.pdb
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\EntityFramework.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\EntityFramework.SqlServer.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AspNet.Identity.Core.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.Facebook.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.Cookies.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.Google.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.Twitter.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.Owin.Security.OAuth.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\System.Web.Http.Owin.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ClinicAppointmentApp.DbManager.pdb
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\ClinicAppointmentApp.DbManager.dll.config
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Newtonsoft.Json.xml
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.ApplicationInsights.xml
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AI.DependencyCollector.xml
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AI.WindowsServer.xml
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AI.Web.xml
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\obj\Debug\ClinicAppointmentApp.Portal.csprojResolveAssemblyReference.cache
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\obj\Debug\ClinicAppointmentApp.Portal.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\obj\Debug\ClinicAppointmentApp.Portal.pdb
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Unity.Abstractions.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Unity.Container.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Unity.WebApi.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\WebActivatorEx.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Unity.Abstractions.pdb
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Unity.Container.pdb

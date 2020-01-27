@@ -11,6 +11,8 @@ C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\ClinicAppointmentApp.Repositories.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\Unity.Abstractions.dll
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\Unity.Container.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\EntityFramework.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\ClinicAppointmentApp.DbManager.pdb
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\ClinicAppointmentApp.DbManager.dll.config
@@ -21,11 +23,9 @@ C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\AutoMapper.xml
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\Unity.Abstractions.pdb
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\Unity.Container.pdb
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\EntityFramework.xml
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\obj\Debug\ClinicAppointmentApp.Core.csprojResolveAssemblyReference.cache
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\obj\Debug\ClinicAppointmentApp.Core.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\obj\Debug\ClinicAppointmentApp.Core.pdb
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\Unity.Abstractions.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\Unity.Container.dll
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\Unity.Abstractions.pdb
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Core\bin\Debug\Unity.Container.pdb

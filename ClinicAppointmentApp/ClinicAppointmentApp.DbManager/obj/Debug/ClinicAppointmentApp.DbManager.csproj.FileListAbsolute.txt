@@ -10,6 +10,6 @@ C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.DbMan
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.DbManager\bin\Debug\EntityFramework.SqlServer.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.DbManager\bin\Debug\EntityFramework.xml
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.DbManager\bin\Debug\EntityFramework.SqlServer.xml
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.DbManager\obj\Debug\ClinicAppointmentApp.DbManager.csprojResolveAssemblyReference.cache
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.DbManager\obj\Debug\ClinicAppointmentApp.DbManager.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.DbManager\obj\Debug\ClinicAppointmentApp.DbManager.pdb
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.DbManager\obj\Debug\ClinicAppointmentApp.DbManager.csprojResolveAssemblyReference.cache
