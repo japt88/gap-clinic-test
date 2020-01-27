@@ -8,6 +8,5 @@ namespace ClinicAppointmentApp.Portal.Models
         public string IdentificationNumber { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public List<AppointmentModel> Appointments { get; set; }
     }
 }

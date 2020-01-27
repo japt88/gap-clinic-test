@@ -62,6 +62,6 @@ C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Porta
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AI.WindowsServer.xml
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\bin\Microsoft.AI.Web.xml
-C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\obj\Debug\ClinicAppointmentApp.Portal.csprojResolveAssemblyReference.cache
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\obj\Debug\ClinicAppointmentApp.Portal.dll
 C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\obj\Debug\ClinicAppointmentApp.Portal.pdb
+C:\PERSONAL\TEST\gap-clinic-test\ClinicAppointmentApp\ClinicAppointmentApp.Portal\obj\Debug\ClinicAppointmentApp.Portal.csprojResolveAssemblyReference.cache
