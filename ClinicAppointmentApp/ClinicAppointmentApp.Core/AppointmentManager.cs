@@ -30,7 +30,7 @@ namespace ClinicAppointmentApp.Core
                 {
                     //check if appointment date will be on more than 24 hours
                     var appointmentDateandTime = appointment.Date + appointment.StartTime;
-                    var dateDiff = (DateTime.Now - appointmentDateandTime).Hours;
+                    var dateDiff = appointmentDateandTime.Subtract(DateTime.Now).TotalHours;
                     if (dateDiff > 24)
                     {
                         _appointmentRepo.Delete(appointmentId);

@@ -72,10 +72,9 @@
                     date: $("#datePick").val(),
                     StartTime: $("#startTimePick").val(),
                     PatientId: $("#patientSelect").val(),
-                    SpecializationId: $("#patientSelect").val()
+                    SpecializationId: $("#specializationSelect").val()
                 };
-
-                console.log(appointmentInfo);
+                
 
                 $.ajax({
                     type: "POST",

@@ -4,9 +4,12 @@ using ClinicAppointmentApp.Dto;
 using ClinicAppointmentApp.Portal.Models;
 using System.Collections.Generic;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace ClinicAppointmentApp.Portal.Controllers
 {
+    [RoutePrefix("api/Appointment")]
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class AppointmentController : ApiController
     {
 
@@ -34,6 +37,16 @@ namespace ClinicAppointmentApp.Portal.Controllers
             return mappedDto;
         }
 
+        // GET: api/Appointment/Patient/5
+        [HttpGet]
+        [Route("Patient/{patientId}")]
+        public IEnumerable<AppointmentModel> GetByPatientId(int patientId)
+        {
+            var appointments = _appointmentManager.GetAllAppointmentsByPatient(patientId);
+            var mappedDto = MapAppointments(appointments);
+            return mappedDto;
+        }
+
         // POST: api/Appointment
         public Result Post(AppointmentModel value)
         {
@@ -42,7 +55,8 @@ namespace ClinicAppointmentApp.Portal.Controllers
         }
 
         // DELETE: api/Appointment/5
-        public Result Cancel(int id)
+        [HttpDelete]
+        public Result Delete(int id)
         {
             return _appointmentManager.CancelAppointment(id);
         }

@@ -18,5 +18,10 @@ namespace ClinicAppointmentApp.Portal.Controllers
         {
             return View();
         }
+
+        public ActionResult Cancel()
+        {
+            return View();
+        }
     }
 }

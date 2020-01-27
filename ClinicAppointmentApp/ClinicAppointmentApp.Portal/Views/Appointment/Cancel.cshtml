@@ -1,0 +1,213 @@
+﻿
+@{
+    ViewBag.Title = "Cancel";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.15.5/bootstrap-table.min.css" rel="stylesheet" type="text/css" />
+}
+
+
+<h2>Patient Appointments</h2>
+
+<form id="findAppointmentsForm">
+    <div class="row">
+        <label for="patientSelect" class="col-sm-2 col-lg-1 col-form-label">Patient</label>
+        <div class="col-sm-5 col-lg-4">
+            <select id="patientSelect" class="browser-default custom-select">
+                <option selected>Open this select menu</option>
+            </select>
+        </div>
+        <div class="col-sm-5 col-lg-3">
+            <button type="submit" class="btn btn-primary md-3">Find Appointments</button>
+        </div>
+    </div>
+</form>
+<br />
+<br />
+<h2>Appointments assigned:</h2>
+<div class="row">
+    <div class="col-12">
+        <table id="appointmentsTable" data-checkbox="true" data-sortable="true" data-row-style="rowStyle"></table>
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="appointmentPatModal" tabindex="-1" role="dialog" class="modal hide fade">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Delete Appointment</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="textResult"></div>
+                <input type="hidden" id="idAppointmentToCancel" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger" onclick="CancelAppointment();">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div id="resultModal" tabindex="-1" role="dialog" class="modal hide fade">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Appointment</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="textResultDelete"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.15.5/bootstrap-table.min.js"></script>
+    <script type="text/javascript">
+
+
+        $(document).ready(function () {
+
+            loadPatients();
+
+            $("#findAppointmentsForm").submit(function (e) {
+                e.preventDefault();
+
+                LoadPatientAppointments();
+            });
+
+        });
+
+        function LoadPatientAppointments() {
+            var patientId = $("#patientSelect").val();
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:44379/api/appointment/patient/" + patientId,
+                data: {},
+                dataType: 'json',
+                contentType: 'application/json',
+                success: function (result) {
+                    $.each(result, function (key, value) {
+                        var formattedDate = formatDate(new Date(value.Date));
+                        value.Date = formattedDate;
+                    });
+                    DrawTable(result);
+                }
+            });
+        }
+
+        function DrawTable(data) {
+            $('#appointmentsTable').bootstrapTable('destroy');
+            $('#appointmentsTable').bootstrapTable({
+                columns: [{
+                    title: "Id",
+                    field: 'Id',
+                    sortable: true
+                }, {
+                    title: "Specialization",
+                    field: 'Specialization.Name',
+                    sortable: true
+                }, {
+                    title: "Date",
+                    field: 'Date',
+                    sortable: true
+                }, {
+                    title: "Start Time",
+                    field: 'StartTime',
+                    sortable: true
+                }, {
+                    title: "Cancel",
+                    align: 'center',
+                    valign: 'middle',
+                    clickToSelect: false,
+                    formatter: function (value, row, index) {
+                        return '<button class=\'btn btn-danger\' appointmentId="' + row.Id + '" >Cancel</button> ';
+                    }
+                }],
+                data: data,
+                rowStyle: function (row, index) {
+                    return {
+                        classes: `row-border ${index % 2 == 1 ? 'row-even' : 'row-odd'}`
+                    };
+                },
+                rowAttributes: function (row, index) {
+                    return {
+                        id: `x-bootstrap-row-${index + 1}`
+                    };
+                }
+            });
+
+            $(".btn-danger").click(function () {
+                var appointmentId = $(this).attr('appointmentId');
+                $("#idAppointmentToCancel").val(appointmentId);
+                $("#textResult").text("Are you sure you want to cancel this appointment with Id #" + appointmentId + "?");
+                $('#appointmentPatModal').modal('show');
+            });
+
+        }
+
+        function formatDate(date) {
+
+            var day = date.getDate();
+            var monthIndex = date.getMonth();
+            var year = date.getFullYear();
+
+            return day + '/' + monthIndex + 1 + '/' + year;
+        }
+
+
+        function loadPatients() {
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:44379/api/patient/",
+                data: {},
+                dataType: 'json',
+                contentType: 'application/json',
+                success: function (patientsArray) {
+                    $.each(patientsArray, function (key, value) {
+                        $('#patientSelect')
+                            .append($("<option></option>")
+                                .attr("value", value.Id)
+                                .text(value.IdentificationNumber + " - " + value.FirstName + " " + value.LastName));
+                    });
+                }
+            });
+        }
+
+        function CancelAppointment() {
+            $('#appointmentPatModal').modal('hide');
+
+            $.ajax({
+                type: "DELETE",
+                url: "http://localhost:44379/api/appointment/" + $("#idAppointmentToCancel").val(),
+                data: {},
+                dataType: 'json',
+                contentType: 'application/json',
+                success: function (result) {
+                    if (result.Status) {
+                        LoadPatientAppointments();
+                    }
+                    $("#textResultDelete").text(result.Message);
+                    $('#resultModal').modal('show');
+                }
+            });
+        }
+    </script>
+}
