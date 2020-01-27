@@ -143,6 +143,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AppointmentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PatientsController.cs" />
     <Compile Include="Global.asax.cs">
@@ -2068,6 +2069,7 @@
     <Content Include="Scripts\vendor\jquery\jquery.slim.min.map" />
     <Content Include="Views\Patients\CreatePatient.cshtml" />
     <Content Include="Views\Patients\GetAllPatients.cshtml" />
+    <Content Include="Views\Appointment\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

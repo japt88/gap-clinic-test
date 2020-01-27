@@ -35,7 +35,7 @@ namespace ClinicAppointmentApp.Portal.Controllers
         }
 
         // POST: api/Appointment
-        public Result Post([FromBody]AppointmentModel value)
+        public Result Post(AppointmentModel value)
         {
             var mappedDto = _mapper.Map<AppointmentModel, Dto.Appointment>(value);
             return _appointmentManager.CreateAppointment(mappedDto);

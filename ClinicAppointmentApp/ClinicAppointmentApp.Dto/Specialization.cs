@@ -7,6 +7,5 @@ namespace ClinicAppointmentApp.Dto
         public int Id { get; set; }
         public string Name { get; set; }
         public bool Enabled { get; set; }
-        public List<Appointment> Appointments { get; set; }
     }
 }

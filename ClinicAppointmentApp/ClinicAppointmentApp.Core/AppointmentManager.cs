@@ -56,26 +56,27 @@ namespace ClinicAppointmentApp.Core
             {
                 //Check appointment is available
                 var appointmentSpot = _appointmentRepo.GetAppointments(appointmentInfo.Date, appointmentInfo.StartTime, appointmentInfo.PatientId);
-                if (appointmentSpot != null)
+                if (appointmentSpot != null && appointmentSpot.Count() > 0)
                     return new Result() { Status = false, Message = "This appointment has been already taken, try another time." };
 
                 //Check patient appointments
                 var patientAppointments = _appointmentRepo.GetAppointmentsByPatientId(appointmentInfo.PatientId);
-                if (patientAppointments != null)
+                if (patientAppointments != null && patientAppointments.Count() > 0)
                 {
-                    var apointmentsOnDay = patientAppointments.FirstOrDefault(x => x.Date.Date == appointmentInfo.Date.Date);
+                    var apointmentsOnDay = patientAppointments.FirstOrDefault(x => x.Date == appointmentInfo.Date);
                     if (apointmentsOnDay != null)
-                        return new Result() { Status = false, Message = "This appointment cannot be assigned since the client has already one for today, try another date." };
+                        return new Result() { Status = false, Message = "This appointment cannot be assigned since the patient has already one for today, try another date." };
                 }
 
                 //Create appointment
                 var appointmentDao = _mapper.Map<Appointment, DbManager.Appointment>(appointmentInfo);
+                appointmentDao.EndTime = appointmentDao.StartTime.Add(TimeSpan.FromMinutes(30));
                 _appointmentRepo.Insert(appointmentDao);
                 _appointmentRepo.Save();
 
                 return new Result() { IdResult = appointmentDao.Id, Status = true, Message = "The appointment has been assigned to the patient." };
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return new Result() { Status = false, Message = "An exception has occurred, please try again." };
             }

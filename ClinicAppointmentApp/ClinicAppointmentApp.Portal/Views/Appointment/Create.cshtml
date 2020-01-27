@@ -1,0 +1,130 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create Appointment</h2>
+
+
+<form id="createAppointmentForm">
+    <div class="row">
+        <div class="col-8">
+            <div class="form-group">
+                <label for="patientSelect">Patient</label>
+                <select id="patientSelect" class="browser-default custom-select">
+                    <option selected>Open this select menu</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="specializationSelect">Specialization</label>
+                <select id="specializationSelect" class="browser-default custom-select">
+                    <option selected>Open this select menu</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="datePick">Date</label>
+                <input type="date" class="form-control" id="datePick" placeholder="Date">
+            </div>
+            <div class="form-group">
+                <label for="startTimePick">StartTime</label>
+                <input type="time" class="form-control" id="startTimePick" placeholder="Start Time">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+</form>
+
+
+<!-- Modal -->
+<div id="appointmentModal" tabindex="-1" role="dialog" class="modal hide fade">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Appointment</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="textResult"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            loadPatients();
+            loadSpecializations();
+
+            $("#createAppointmentForm").submit(function (e) {
+                e.preventDefault();
+
+                var appointmentInfo = {
+                    date: $("#datePick").val(),
+                    StartTime: $("#startTimePick").val(),
+                    PatientId: $("#patientSelect").val(),
+                    SpecializationId: $("#patientSelect").val()
+                };
+
+                console.log(appointmentInfo);
+
+                $.ajax({
+                    type: "POST",
+                    url: "http://localhost:44379/api/appointment/",
+                    data: JSON.stringify(appointmentInfo),
+                    dataType: 'json',
+                    contentType: 'application/json',
+                    success: function (result) {
+                        $("#textResult").text(result.Message);
+                        $('#appointmentModal').modal('show');
+                    }
+                });
+            });
+
+            function loadPatients() {
+                $.ajax({
+                    type: "GET",
+                    url: "http://localhost:44379/api/patient/",
+                    data: {},
+                    dataType: 'json',
+                    contentType: 'application/json',
+                    success: function (patientsArray) {
+                        $.each(patientsArray, function (key, value) {
+                            $('#patientSelect')
+                                .append($("<option></option>")
+                                    .attr("value", value.Id)
+                                    .text(value.IdentificationNumber + " - " + value.FirstName + " " + value.LastName));
+                        });
+                    }
+                });
+            }
+
+            function loadSpecializations() {
+                $.ajax({
+                    type: "GET",
+                    url: "http://localhost:44379/api/specialization/",
+                    data: {},
+                    dataType: 'json',
+                    contentType: 'application/json',
+                    success: function (specializationsArray) {
+                        $.each(specializationsArray, function (key, value) {
+                            $('#specializationSelect')
+                                .append($("<option></option>")
+                                    .attr("value", value.Id)
+                                    .text(value.Name));
+                        });
+                    }
+                });
+            }
+        });
+    </script>
+}
