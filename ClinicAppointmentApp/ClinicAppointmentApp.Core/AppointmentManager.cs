@@ -38,7 +38,7 @@ namespace ClinicAppointmentApp.Core
                         return new Result() { Status = true, Message = "The appointment has been canceled." };
                     }
                     else
-                        return new Result() { Status = false, Message = "The appointment should be canceled more than 24 hours in advance." };
+                        return new Result() { Status = false, Message = "The appointment cannot be canceled in less than 24 hours." };
                 }
                 return new Result() { Status = false, Message = "The requested appointment doesn't exists." };
 
