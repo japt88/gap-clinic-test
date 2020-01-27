@@ -1,0 +1,78 @@
+﻿
+@{
+    ViewBag.Title = "GetAllPatients";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.15.5/bootstrap-table.min.css" rel="stylesheet" type="text/css" />
+}
+
+<h2>All Patients</h2>
+
+<div class="row">
+    <div class="col-12">
+        <table id="patientsTable" data-checkbox="true" data-sortable="true" data-row-style="rowStyle"></table>
+    </div>
+
+</div>
+
+
+@section Scripts
+{
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.15.5/bootstrap-table.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:44379/api/patient/",
+                dataType: 'json',
+                contentType: 'application/json',
+                success: function (result) {
+                    console.log(result);
+                    DrawTable(result);
+                }
+            });
+
+            function DrawTable(data) {
+
+                $('#patientsTable').bootstrapTable({
+                    columns: [{
+                        title: "Code",
+                        field: 'Id',
+                        sortable: true
+                    },{
+                        title: "Identification",
+                        field: 'IdentificationNumber',
+                        sortable: true
+                    }, {
+                        title: "First Name",
+                        field: 'FirstName',
+                        sortable: true
+                    }, {
+                        title: "Last Name",
+                        field: 'LastName',
+                        sortable: true
+                    }],
+                    data: data,
+                    rowStyle: function (row, index) {
+                        return {
+                            classes: `row-border ${index % 2 == 1 ? 'row-even' : 'row-odd'}`
+                        };
+                    },
+                    rowAttributes: function (row, index) {
+                        return {
+                            id: `x-bootstrap-row-${index + 1}`
+                        };
+                    }
+                });
+            }
+
+
+        });
+    </script>
+}

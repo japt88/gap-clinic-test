@@ -17,5 +17,10 @@ namespace ClinicAppointmentApp.Portal.Controllers
         public ActionResult CreatePatient() {
             return View();
         }
+
+        public ActionResult GetAllPatients()
+        {
+            return View();
+        }
     }
 }
